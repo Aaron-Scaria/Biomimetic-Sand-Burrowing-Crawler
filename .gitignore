@@ -1,0 +1,46 @@
+# === Microcontroller & Embedded Build Junk ===
+# Compilers and IDEs (Arduino, PlatformIO, STM32, VS Code)
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+bin/
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.su
+
+# === Machine Learning & Python Artifacts ===
+# Python cache and byte-code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data processing & Environments
+.env
+.venv/
+env/
+venv/
+lib/
+lib64/
+
+# === 3D Modeling / CAD Temp Files ===
+# SolidWorks, AutoCAD, Fusion360 backup/lock files
+*.~*
+*.tmp
+*.bak
+*.err
+*.log
+
+# === System & IDE Configuration ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
